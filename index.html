@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+
+	<!-- Required Meta Tags-->
+	<meta http-equiv="Cache-control" content="public">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="images/favicon.png" />
+    
+    <!-- Boostrap Css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.3/css/bootstrap-select.min.css">
+
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- font-family: 'Roboto', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Exo 2', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Open Sans', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Theme css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+
+  
+
+</head>
+<body class="home">
+<div id="header" class="header">
+   <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="images/interactivv_logo.png" alt="logo" /></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button">TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button">WORK</a>
+      <a href="#pricing" class="w3-bar-item w3-button">PRICING</a>
+      <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+</div>
+
+<!-- Banner Section--->
+ <div class="vimeo-wrapper">
+        <div class="video-overlay"></div>
+        <iframe src="https://player.vimeo.com/video/76979871?background=1&autoplay=1&loop=1&byline=0&title=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+</div>
+
+<div class="banner-sec w3-auto">
+    <div class="middle">
+      <div class="banner-contn w3-white">
+        <p>In this ever-developing digital world, <span>now</span> is the best time to…</p>
+            <h1>Ultra Boost Your Business<br> To a Top-notch level.</h1>
+            <h4>Let us aid you groom and improve your brand to stand out in high<br> class and quality with<span> 360 solutions ...</span></h4>
+                <ul>
+                    <li>Speak professionalism in your sales proposal with digital and technological strategies.</li>
+                    <li>Create impact, 100X your brand promotions and attract more Clients.</li>
+                    <li>Gain massive authority in your niche.</li>
+                    <li>Increase, improve and accelerate your profit/income rate per advert output.</li>
+                </ul>
+                <div class="bnnr-btn">
+                    <a href="#free-session-sec" class="btn btn-grey hvr-radial-out btncntlink">Click to sign up</a>
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#bannervideo" class="hvr"><img src="images/video_button.png"></a>
+                    <p><a href="javascript:void(0)" id="myBtn">watch the video</a></p>
+                </div>
+            <h6>We’d work with you to achieve your brand goals through quality…</h6>
+      </div>
+  </div>
+</div>
+
+<!-- testimonial section -->
+
+<div class="testimonial w3-auto">
+    <div class="middle">
+        <div class="owl-carousel" id="testimonial-slider">
+            <div class="testimonial">
+                <p class="description">
+                                    “We took on your design and development teams on good faith, and it worked out very well. The teams made updates in a timely manner and the feedback on the site from our clients is positive. I’d happily recommend Studio1 and will be in the future with
+                                    my clients. Please feel free to share this with your team and your website, it’s been an excellent experience.”
+                </p>
+                <h3 class="title">Robert McAdams</h3>
+                <h5 class="post">CXOsecurity.com.au</h5>
+            </div>
+            <div class="testimonial">
+                <p class="description">
+                                    “We took on your design and development teams on good faith, and it worked out very well. The teams made updates in a timely manner and the feedback on the site from our clients is positive. I’d happily recommend Studio1 and will be in the future with
+                                    my clients. Please feel free to share this with your team and your website, it’s been an excellent experience.”
+                </p>
+                <h3 class="title">Robert McAdams</h3>
+                <h5 class="post">CXOsecurity.com.au</h5>
+            </div>
+            <div class="testimonial">
+                <p class="description">
+                                    “We took on your design and development teams on good faith, and it worked out very well. The teams made updates in a timely manner and the feedback on the site from our clients is positive. I’d happily recommend Studio1 and will be in the future with
+                                    my clients. Please feel free to share this with your team and your website, it’s been an excellent experience.”
+                </p>
+                <h3 class="title">Robert McAdams</h3>
+                <h5 class="post">CXOsecurity.com.au</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <div class="partner-logo-slider w3-auto">
+    <div class="middle">
+                    <div id="logo-slider" class="owl-carousel">
+                        <div class="logoss">
+                            <img src="images/logos/1_hover.png" alt="">
+                            <img src="images/logos/3_hover.png" alt="">
+                            <img src="images/logos/5_hover.png" alt="">
+                            <img src="images/logos/2_hover.png" alt="">
+                            <img src="images/logos/4_hover.png" alt="">
+                            <img src="images/logos/6_hover.png" alt="">
+
+                        </div>
+                        <div class="logoss">
+                            <img src="images/logos/1_hover.png" alt="">
+                            <img src="images/logos/3_hover.png" alt="">
+                            <img src="images/logos/5_hover.png" alt="">
+                            <img src="images/logos/2_hover.png" alt="">
+                            <img src="images/logos/4_hover.png" alt="">
+                            <img src="images/logos/6_hover.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+ </div>
+</div>
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+
+
+
+<!-- OWL  -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <!-- Theme js -->
+    <script type="text/javascript" src="js/custom.js"></script>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+</body>
+<script type="text/javascript">
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+        if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+        } else {
+            mySidebar.style.display = 'block';
+        }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+</script>
+</html>
